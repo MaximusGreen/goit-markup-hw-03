@@ -1,12 +1,32 @@
+*,
+ *::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFF;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
 ul, ol {
     list-style-type: none;
+    margin: 0;
+    padding-left: 0;
 }
+
+
 
 .span {
     color: #2e2f42;
@@ -63,6 +83,29 @@ ul, ol {
     letter-spacing: 0.4px;
 }
 
+header {
+display: flex;
+height: 72px;
+}
+
+.page-nav {
+display: flex;
+}
+
+.nav-ul {
+display: flex;
+gap: 40px;
+margin-left: 76px;
+padding-top: 24px;
+padding-bottom: 24px;
+}
+
+.add-ul {
+display: flex;
+gap: 40px;
+
+}
+
 .page-nav .link {
     color: #2E2F42;
     font-size: 16px;
@@ -88,6 +131,9 @@ ul, ol {
 
 .page-add {
     font-style: normal;
+    margin-left: 332px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .page-add .link {
@@ -121,15 +167,18 @@ color: #434455;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.17;
+    line-height: 1.16;
     letter-spacing: 0.54px;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-left: 156px;
+    padding-top: 25.5px;
+    padding-bottom: 25.5px;
+    
 }
 
-.lii, .our-team-li {
+.lii {
     background-color: #FFFFFF;
-
 }
 
 .our-team {
@@ -138,4 +187,9 @@ color: #434455;
 
 .our-team-li {
 text-align: center;
+background-color: #FFFFFF;
+}
+
+.conteiner-ul {
+display: flex;
 }
