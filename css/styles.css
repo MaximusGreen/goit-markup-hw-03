@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+header {
+    height: 72px;
+    border-bottom: 1px solid #e7e9fc
+}
+
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -29,6 +34,86 @@ ul, ol {
 
 img {
     max-width: 100%;
+}
+
+.page-head {
+    display: flex;
+}
+
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.page-nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-ul {
+    display: flex;
+    gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.add-ul {
+    display: flex;
+    gap: 40px;
+}
+
+.page-nav .link {
+    color: #2E2F42;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.page-nav .link:hover {
+    color: #404BBF;
+}
+
+.page-nav .link:active {
+    color: #404BBF;
+}
+
+.link:hover,
+.link:focus {
+    color: #404BBF;
+}
+
+.page-add .link:hover,
+.page-add .link:focus {
+    color: #404BBF;
+}
+
+.page-add {
+    font-style: normal;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-left: 332px;
+}
+
+.page-add .link {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.page-nav .logo {
+    margin-right: 76px;
+    padding: 24px 0
 }
 
 .span {
@@ -71,20 +156,20 @@ img {
     background-color: #2E2F42;
     width: 1440px;
     height: 600px;
+    padding: 188px 0;
 }
 
-.start .page-title {
-    margin-top: 188px;
-    margin-left: 472px;
-    margin-right: 472px;
+.start-con {
+   display: flex;
+   gap: 48px;
+   align-items: center;
+   flex-direction: column;
+}
+
+.start-con .page-title {
     display: inline-block;
     height: 120px;
-}
-
-.start .button {
-    margin-left: 636px;
-    margin-right: 635px;
-    margin-top: 48px;
+    max-width: 496px
 }
 
 .zagolovok {
@@ -142,69 +227,11 @@ img {
     letter-spacing: 0.4px;
 }
 
-header {
-display: flex;
-height: 72px;
-}
-
-.page-nav {
-display: flex;
-}
-
-.nav-ul {
-display: flex;
-gap: 40px;
-margin-left: 76px;
-padding-top: 24px;
-padding-bottom: 24px;
-}
-
-.add-ul {
-display: flex;
-gap: 40px;
-
-}
-
-.page-nav .link {
-    color: #2E2F42;
-    font-size: 16px;
-    font-weight: 500;
-    
-}
-
-.page-nav .link:hover {
-    color: #404BBF;
-}
-
-.page-nav .link:active {
-    color: #404BBF;
-}
-
-.link:hover, .link:focus {
-    color: #404BBF;
-}
-
-.page-add .link:hover, .page-add .link:focus {
-    color: #404BBF;
-}
-
-.page-add {
-    font-style: normal;
-    margin-left: 332px;
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
-
-.page-add .link {
-    color: #434455;
-    font-size: 16px; 
-    line-height: 1.5;
-    letter-spacing: 0.32px;
-}
 
 .button {
     color: #FFF;
     background: #4D5AE5;
+    background-color: #4d5ae5;
     cursor: pointer;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -213,11 +240,12 @@ gap: 40px;
     letter-spacing: 0.64px;
     height: 56px;
     width: 169px;
+    display: block;
+    min-width: 169px;
+    border: none;
     border-radius: 4px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    
 }
-
 
 .button:hover, .button:focus {
     background-color: #404BBF;
@@ -228,27 +256,11 @@ gap: 40px;
     text-decoration: none;
 }
 
-.logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.16;
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
-    color: #4d5ae5;
-}
-
-.page-nav .logo {
-    margin-left: 156px;
-    padding-top: 25.5px;
-    padding-bottom: 25.5px;
-}
-
 .our-team {
     background-color: #F4F4FD;
     width: 1440px;
-        height: 732px;
-        flex-shrink: 0;
+    height: 732px;
+    flex-shrink: 0;
 }
 
 .our-team .section-title {
