@@ -6,7 +6,7 @@
 
 header {
     height: 72px;
-    border-bottom: 1px solid #e7e9fc
+    border-bottom: 1px solid #e7e9fc;
 }
 
 body {
@@ -80,6 +80,7 @@ img {
     color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
+    padding: 24px 0;
 }
 
 .page-nav .link:hover {
@@ -126,7 +127,7 @@ img {
 
 .page-nav .logo {
     margin-right: 76px;
-    padding: 24px 0
+    padding: 24px 0;
 }
 
 .span {
@@ -186,7 +187,7 @@ img {
 .start-con .page-title {
     display: inline-block;
     height: 120px;
-    max-width: 496px
+    max-width: 496px;
 }
 
 .zagolovok {
@@ -279,7 +280,7 @@ img {
     width: 1440px;
     height: 732px;
     flex-shrink: 0;
-    padding: 120px 0
+    padding: 120px 0;
 }
 
 .our-team .section-title {
@@ -313,7 +314,7 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
     justify-content: center;
     align-items: center;
     gap: 8px;
-    padding: 32px 0
+    padding: 32px 0;
 }
 
 .team-div .title {
