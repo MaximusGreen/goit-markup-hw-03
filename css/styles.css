@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-header {
+.hedr {
     height: 72px;
     border-bottom: 1px solid #e7e9fc;
 }
@@ -71,6 +71,10 @@ img {
     padding-bottom: 24px;
 }
 
+.nav-ul .link {
+    padding: 24px 0;
+}
+
 .add-ul {
     display: flex;
     gap: 40px;
@@ -80,7 +84,6 @@ img {
     color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
-    padding: 24px 0;
 }
 
 .page-nav .link:hover {
