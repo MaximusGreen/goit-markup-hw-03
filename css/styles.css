@@ -161,7 +161,7 @@ img {
     gap: 17.5px;
 }
 
-.foot-cl .logo {
+.foot-cl a {
     display: inline-block;
     margin-bottom: 16px;
 }
