@@ -158,7 +158,14 @@ img {
     margin-left: 156px;
 }
 
-.foot-cl .logo {
+.logo-foot {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    color: #4d5ae5;
     margin-bottom: 16px;
     display: inline-block;
 }
