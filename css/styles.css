@@ -13,7 +13,6 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFF;
-    width: 1440px;
 }
 
 h1,
@@ -125,6 +124,7 @@ img {
     line-height: 1.16;
     letter-spacing: 0.54px;
     text-transform: uppercase;
+    text-decoration: none;
     color: #4d5ae5;
 }
 
@@ -149,13 +149,7 @@ img {
 
 .foot {
     background-color: #2E2F42;
-    width: 1440px;
-    height: 312px;
     padding: 100px 0;
-}
-
-.foot-cl {
-    margin-left: 156px;
 }
 
 .logo-foot {
@@ -165,6 +159,7 @@ img {
     line-height: 1.16;
     letter-spacing: 0.54px;
     text-transform: uppercase;
+    text-decoration: none;
     color: #4d5ae5;
     margin-bottom: 16px;
     display: inline-block;
@@ -179,7 +174,6 @@ img {
 
 .start {
     background-color: #2E2F42;
-    width: 1440px;
     height: 600px;
     padding: 188px 0;
 }
@@ -204,12 +198,10 @@ img {
 .conteiner-ul {
     display: flex;
     gap: 24px;
-    width: 1128px;
 }
 
 .lii {
     background-color: #FFFFFF;
-    display: flex;
     gap: 8px;
     align-items: flex-start;
     flex-direction: column;
@@ -282,8 +274,6 @@ img {
 
 .our-team {
     background-color: #F4F4FD;
-    width: 1440px;
-    height: 732px;
     flex-shrink: 0;
     padding: 120px 0;
 }
