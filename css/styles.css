@@ -201,6 +201,7 @@ img {
 }
 
 .lii {
+    display: flex;
     background-color: #FFFFFF;
     gap: 8px;
     align-items: flex-start;
@@ -304,11 +305,6 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
     align-items: center;
     gap: 8px;
     padding: 32px 0;
-}
-
-.team-div .title {
-    text-align: center;
-    margin-bottom: 8px;
 }
 
 .team-div .prg {
