@@ -25,7 +25,9 @@ p {
     margin: 0;
 }
 
-.title {
+.lii .title,
+.team-div .title,
+.lii-div .title {
     margin-bottom: 8px;
 }
 
